@@ -36,3 +36,7 @@ a { color: var(--teal); }
 .panel { background: var(--panel); border-radius: 16px; padding: 16px 20px; margin: 16px 0; }
 .note { color: var(--muted); font-size: 16px; }
 footer { padding: 40px 16px 48px; color: var(--muted); font-size: 15px; }
+p.get { display: flex; align-items: center; gap: 8px 16px; flex-wrap: wrap; margin: 20px 0 8px; }
+a.store { display: inline-block; background: var(--teal); color: #ffffff; font-weight: 700; text-decoration: none; padding: 12px 22px; border-radius: 12px; }
+a.store:hover, a.store:focus-visible { filter: brightness(1.1); }
+@media (prefers-color-scheme: dark) { a.store { color: #0b1a19; } }
